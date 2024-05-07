@@ -1,5 +1,5 @@
 import { BrowserRouter, Routes,Route } from 'react-router-dom';
-import './App.css';
+
 import Home from './components/Home';
 import Signup from './components/Signup';
 import Login from './components/Login';
@@ -17,10 +17,7 @@ function App() {
 <Route path="*" element={<Notfound/>} />
     </Routes>
     </BrowserRouter>
-    // <div className="App">
-    //  <h1>hello world</h1>
     
-    // </div>
   );
 }
 
